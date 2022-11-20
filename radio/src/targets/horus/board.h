@@ -541,6 +541,8 @@ void DMABitmapConvert(uint16_t * dest, const uint8_t * src, uint16_t w, uint16_t
 #define BACKLIGHT_LEVEL_MIN   5
 #elif defined(RADIO_FAMILY_T16)
 #define BACKLIGHT_LEVEL_MIN   1
+#elif defined(PCBX10) 
+#define BACKLIGHT_LEVEL_MIN   5
 #else
 #define BACKLIGHT_LEVEL_MIN   46
 #endif
